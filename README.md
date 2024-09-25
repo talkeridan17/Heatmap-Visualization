@@ -13,6 +13,7 @@ To run this project, you need to have Python installed on your machine along wit
 - **pandas**
 - **seaborn**
 - **matplotlib**
+
 You can install the required libraries using 'pip':
 ```bash
 pip install pandas seaborn matplotlib
