@@ -4,20 +4,23 @@
 @IdanTalker
 
 ## Description
-Assuming correlation data is formatted correctly and stored in a csv file, then using public libaries pandas,
-seaborn and matplotlib to read and present the data in a 2D heatmap. Each slot in the heatmap showcase the
-correlation between the two intersecting categories of its row and column. Works for MacOS/Linux enviorment.
+This project generates a 2D heatmap based on correlation data stored in a CSV file, using public libraries
+such as **pandas**, **seaborn**, and **matplotlib**. Each cell in the heatmap represents the correlation
+between the intersecting categories of its row and column.
 
 ## Installation
 To run this project, you need to have Python installed on your machine along with the following libraries:
-- pandas
-- seaborn
-- matplotlib
-You can install the required libraries using pip:
+- **pandas**
+- **seaborn**
+- **matplotlib**
+
+You can install the required libraries using 'pip':
+```bash
 pip install pandas seaborn matplotlib
+```
 
 ## Instructions
-Add the csv file in the correct format (example in the heatmap.csv file) to the "CSV_Files" folder. Change
+Add the csv file in the correct format (example in the test1.csv file) to the "CSV_Files" folder. Change
 the constant FILE_NAME at the top of the heatmap_gen.py python program to the name of the csv file from which
 to make the heatmap, excluding the ".csv" extention. Run the heatmap_gen.py file, (may take a couple of seconds)
 and your heatmap will generate in the "Heatmap_Results" directory as a png image under the same name of the csv

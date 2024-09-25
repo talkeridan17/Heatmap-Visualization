@@ -20,7 +20,7 @@ pip install pandas seaborn matplotlib
 ```
 
 ## Instructions
-Add the csv file in the correct format (example in the heatmap.csv file) to the "CSV_Files" folder. Change
+Add the csv file in the correct format (example in the test1.csv file) to the "CSV_Files" folder. Change
 the constant FILE_NAME at the top of the heatmap_gen.py python program to the name of the csv file from which
 to make the heatmap, excluding the ".csv" extention. Run the heatmap_gen.py file, (may take a couple of seconds)
 and your heatmap will generate in the "Heatmap_Results" directory as a png image under the same name of the csv
