@@ -1,10 +1,17 @@
+__author__ = "Idan Talker"
+__credits__ = ["Mao Cheung Jun"]
+__version__ = "1.0.1"
+__maintainer__ = "Idan Talker"
+__email__ = ["talkeridan@icloud.com", "talkeridan@gmail.com", "talke002@umn.edu"]
+__status__ = "Prototype"
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 # The csv file name to open (excluding the .csv extention)
 # EDIT THIS ACCORDIG TO TARGET FILE NAME
-FILE_NAME = 'heatmap'
+FILE_NAME = 'correlation'
 
 # The size of the final heatmap (will be square, so FIGUE_SIZE)
 FIGURE_SIZE = 40
@@ -37,7 +44,7 @@ else:
                 annot_kws={"size": font_size, "weight": "bold"})
 
     # Add title and customize axis labels
-    plt.title('Pearlson Correlation Heatmap', fontsize=font_size+10, fontweight='bold', pad=font_size+10)
+    plt.title('Correlation Heatmap', fontsize=font_size+10, fontweight='bold', pad=font_size+10)
     plt.xlabel('Variables', fontsize=font_size, fontweight='bold')
     plt.ylabel('Variables', fontsize=font_size, fontweight='bold')
 

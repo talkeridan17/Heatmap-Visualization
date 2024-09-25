@@ -1,4 +1,4 @@
-# Pearlson Correlation Heatmap
+# Correlation Heatmap
 
 ## Author
 @IdanTalker
