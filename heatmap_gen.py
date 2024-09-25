@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # The csv file name to open (excluding the .csv extention)
 # EDIT THIS ACCORDIG TO TARGET FILE NAME
-FILE_NAME = 'Book1'
+FILE_NAME = 'heatmap'
 
 # The size of the final heatmap (will be square, so FIGUE_SIZE)
 FIGURE_SIZE = 40
@@ -31,7 +31,7 @@ else:
     heatmap = sns.heatmap(df,
                 annot=True,
                 fmt='.3f',
-                cmap='viridis', # Colorblind friendly, YlGnBu also looks nice
+                cmap='YlGnBu', # Looks nice, viridis is colorblind friendly
                 linewidths=0.5,
                 linecolor='black',
                 annot_kws={"size": font_size, "weight": "bold"})
