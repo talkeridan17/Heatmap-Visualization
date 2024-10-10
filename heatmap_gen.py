@@ -11,7 +11,9 @@ import matplotlib.pyplot as plt
 
 # The csv file name to open (excluding the .csv extention)
 # EDIT THIS ACCORDIG TO TARGET FILE NAME
+#   -------------------------------
 FILE_NAME = 'correlation'
+#   -------------------------------
 
 # The size of the final heatmap (will be square, so FIGUE_SIZE)
 FIGURE_SIZE = 40
