@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 FILE_NAME = 'correlation'
 #   -------------------------------
 
-# The size of the final heatmap (will be square, so FIGUE_SIZE)
+# The size of the final heatmap (will be square, so FIGURE_SIZE)
 FIGURE_SIZE = 40
 
 try:
