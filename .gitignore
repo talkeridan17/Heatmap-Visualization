@@ -32,6 +32,9 @@ MANIFEST
 *.manifest
 *.spec
 
+# MacOS Vscode stuff
+.DS_Store
+
 # Personal files
 correlation.csv
 correlation.png
