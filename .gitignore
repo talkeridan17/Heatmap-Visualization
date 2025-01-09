@@ -32,6 +32,10 @@ MANIFEST
 *.manifest
 *.spec
 
+# Personal files
+correlation.csv
+correlation.png
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
